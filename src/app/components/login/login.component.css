@@ -1,0 +1,136 @@
+body{
+  background-color: white;
+}
+   .container{
+    padding: 5% 0px;
+   }
+  .login-one{
+    /* background-image:url('assets/img/loginbg.png'); */
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+    width: 100%;
+    padding: 0px !important;
+  }
+
+  .login-two{
+    background-color: #637595;
+    width: 100%;
+
+  }
+  .login-one .one-inner{
+    background-color: white;
+    opacity: 0.9;
+    width: 100%;
+    height: auto;
+    margin :0px !important;
+
+  }
+  .login-one .one-inner .box-tls{
+    padding-left: 50px;
+    padding-top: 20px;
+  }
+
+  .login-one .one-inner .box-tls-text{
+   padding: 20%;
+   }
+  .login-one .one-inner .box-tls-text>h3{
+    color: red;
+    letter-spacing: 3px;
+    font-size: 1em;
+    font-weight: 500;
+    margin-top: 20%;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .login-one .one-inner .box-tls-text>p{
+     font-family: 'Open Sans', sans-serif;
+     color: #637595;
+     font-weight: bold;
+     letter-spacing: 1px;
+     text-transform: uppercase;
+
+  }
+  .btn-tls{
+    background-color: transparent;
+    border: 1px solid red;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+     color: red;
+     font-weight: bold;
+     border-radius: 20px;
+     font-size: 0.8em;
+     padding: 10px 25px;
+  }
+  .box-tls-text>ul{
+    margin-top: 30%;
+    position: relative;
+    left: 40px;
+    top: 55px;
+  }
+
+  .box-tls-text>ul>li{
+   display: inline-block;
+   float: left;
+   margin: 10px 5px;
+  }
+  .box-tls-text>ul>li>a{
+    color: #637595;
+  }
+
+  .form-label-group>label ,label{
+    color: rgba(163, 168, 174, 255);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px !important;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  h6{
+    color:#ddd;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+
+  .form-control{
+    border-radius: 0px;
+    border: none;
+  }
+
+ input[type=checkbox], input[type=radio]{
+   position: relative;
+   top: 3px;
+ }
+
+ .btn-login{
+   background-color: #ef716b;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+     color: white;
+     font-weight: bold;
+     border-radius: 20px;
+     font-size: 0.8em;
+     padding: 10px 35px;
+     position: relative;
+     left: 30%;
+ }
+
+ .login-from>h3{
+  font-family: 'Open Sans', sans-serif;
+  color: #ddd;
+ }
+.login-from>p{
+ color: #ddd;
+}
+.login-from>h6{
+  font-family: 'Open Sans', sans-serif;
+  color: #ddd;
+  font-size: 12px;
+}
+
+.login-from>h6>a{
+  color: #ef716b;
+  cursor:pointer;
+}

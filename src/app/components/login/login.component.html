@@ -1,0 +1,61 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xl-5 col-sm-6 mb-3 login-one" style="background-image:url('assets/img/loginbg.png')">
+      <div class="one-inner">
+        <div class="box-tls">
+         <img src="assets/img/tls.png" width="80px;" height="auto;">
+       </div>
+       <div class="box-tls-text text-center">
+         <h3 class="text-center">TRANSFORMATIVE</h3>
+         <p class="text-center">YOUR LOGISTIC, INVENTORY AND ORDER JUST A CLICK AWAY</p><br>
+         <button class="btn btn-tls text-center">Learn More</button>
+
+         <ul>
+          <li><a href="#"><i class="fa fa-facebook-official"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+          <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
+        </ul>
+       </div>
+      </div>
+    </div>
+
+  <div class="col-xl-7 col-sm-6 mb-3 login-two">
+  <div class="col-md-8 mx-auto mt-5 login-from"><br><br>
+      <h3>Sign in to Transformative.</h3>
+      <h6>Not Sign Up Yet ? <a routerLink="/signup">SIGNUP HERE</a></h6>
+      <p>Enter your details below.</p>
+    <form (ngSubmit)="onSubmit(loginForm)"   #loginForm="ngForm">
+      <div class="form-group">
+        <div class="form-label-group">
+          <label for="inputEmail">UserName</label>
+          <input type="email" class="form-control" placeholder="username" required="required" autofocus="autofocus" ngModel name="email">
+        </div>
+      </div>
+  <br>
+      <div class="form-group">
+        <div class="form-label-group">
+          <label for="inputPassword">Password</label>
+          <label class="float-right">forget UserName/password</label>
+          <input type="password"  class="form-control" placeholder="Password" required="required" ngModel name="pass">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="remember-me">
+            Remember Password
+          </label>
+          <label class="float-right">forget UserName/password</label>
+        </div>
+      </div>
+      <button class="btn btn-login mx-auto" href="#" [disabled]="!loginForm.valid" >sign in</button>
+    </form>
+
+  </div>
+  </div>
+  </div>
+
+  </div>

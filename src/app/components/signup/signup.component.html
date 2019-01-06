@@ -1,0 +1,74 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xl-5 col-sm-6 mb-3 login-one" style="background-image:url('assets/img/loginbg.png')">
+      <div class="one-inner">
+        <div class="box-tls">
+         <img src="assets/img/tls.png" width="80px;" height="auto;">
+       </div>
+       <div class="box-tls-text text-center">
+         <h3 class="text-center">TRANSFORMATIVE</h3>
+         <p class="text-center">YOUR LOGISTIC, INVENTORY AND ORDER JUST A CLICK AWAY</p><br>
+         <button class="btn btn-tls text-center">Learn More</button>
+
+         <ul>
+          <li><a href="#"><i class="fa fa-facebook-official"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+          <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
+        </ul>
+       </div>
+      </div>
+    </div>
+
+  <div class="col-xl-7 col-sm-6 mb-3 login-two">
+  <div class="col-md-8 mx-auto mt-5 login-from">
+      <h3>Sign Up to Transformative.</h3>
+      <h6>Already Registered <a routerLink="/login">Login Here</a></h6>
+      <p>Enter your details below.</p>
+    <form (ngSubmit)="onSubmit(signForm)" #signForm="ngForm">
+
+
+        <div class="form-group">
+            <div class="form-label-group">
+              <label for="inputEmail">First Name</label>
+              <input type="name" class="form-control" placeholder="First Name" required="required" ngModel name="first_name">
+            </div>
+          </div>
+
+          <div class="form-group">
+              <div class="form-label-group">
+                <label for="inputEmail">Last Name</label>
+                <input type="name" class="form-control" placeholder="Last Name" required="required" ngModel name="last_name">
+              </div>
+            </div>
+
+      <div class="form-group">
+        <div class="form-label-group">
+          <label for="inputEmail">Email</label>
+          <input type="email" class="form-control" placeholder="username" required="required" autofocus="autofocus" ngModel name="email">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="form-label-group">
+          <label for="inputPassword">Password</label>
+          <input type="password"  class="form-control" placeholder="Password" required="required" ngModel name="password">
+        </div>
+      </div>
+
+      <div class="form-group">
+          <div class="form-label-group">
+            <label for="inputPassword">Phone Number</label>
+            <input type="tel"  class="form-control" placeholder="Password" required="required" ngModel name="phone">
+          </div>
+        </div>
+
+      <button class="btn btn-login mx-auto" href="#" [disabled]="!signForm.valid" >sign Up</button>
+
+    </form><br>
+  </div>
+  </div>
+  </div>
+
+  </div>

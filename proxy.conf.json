@@ -1,0 +1,10 @@
+{
+  "/api": {
+  "target": "http://nextinnovation.in",
+  "secure": false,
+  "pathRewrite": {
+  "^/api": ""
+  },
+  "changeOrigin": true
+  }
+  }
